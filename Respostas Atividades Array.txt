@@ -1,0 +1,37 @@
+console.log("1 - Crie um array chamado listaDeCompras que comece com pelo menos 5 itens diferentes. Adicionar Itens:");
+let listaDeCompras = ["pão", "leite", "ovos", "queijo", "frutas"];
+console.log(listaDeCompras);
+
+console.log("2 - Adicione um novo item ao final da lista usando o método push().");
+listaDeCompras.push("café");
+console.log(listaDeCompras);
+
+console.log("3 - Adicione um novo item ao início da lista usando o método unshift()");
+listaDeCompras.unshift("manteiga");
+console.log(listaDeCompras);
+
+console.log("4 - Remova o último item da lista usando o método pop() e armazene o item removido em uma variável chamada itemRemovido.");
+let itemRemovido = listaDeCompras.pop();
+console.log(listaDeCompras);
+console.log(itemRemovido);
+
+console.log("5 - Remova o primeiro item da lista usando o método shift() e armazene o item removido em uma variável chamada primeiroItemRemovido");
+let primeiroItemRemovido = listaDeCompras.shift();
+console.log(listaDeCompras);
+console.log(primeiroItemRemovido);
+
+console.log("6 - Substitua o segundo item da lista por um novo item usando o método splice().");
+listaDeCompras.splice(1, 1, "chocolate");
+console.log(listaDeCompras);
+
+console.log("7 - Remova o terceiro item da lista usando o método splice() e adicione dois novos itens no lugar dele.");
+listaDeCompras.splice(2, 1, "biscoitos", "suco"); 
+console.log(listaDeCompras);
+
+console.log("Desafio adicional 1 - Use o método indexOf() para encontrar a posição de um item específico na lista.");
+let indice = listaDeCompras.indexOf("frutas");
+console.log(indice);
+
+console.log("Desafio adicional 2 - Se o item estiver na lista, remova-o usando o método splice(). Se não estiver, adicione o item ao final da lista.");
+let itemBuscado = (indice >= 0) ? listaDeCompras.splice(indice) : listaDeCompras.push("frutas");
+console.log(listaDeCompras);

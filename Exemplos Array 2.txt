@@ -1,0 +1,19 @@
+// let frutas = ["maçã", "banana", "laranja", "uva"]; // Remover 2 elementos a parƟr do índice 1
+// let removidos = frutas.splice(1, 2);
+// console.log(frutas); // Saída: ["maçã", "uva"]
+// console.log(removidos); // Saída: ["banana", "laranja"]
+
+// let cores = ["vermelho", "azul", "verde", "amarelo"]; // SubsƟtuir 1 elemento no índice 2
+// console.log(cores);
+// cores.splice(2, 3, "roxo", "preto", "laranja");
+// console.log(cores); // Saída: ["vermelho", "azul", "roxo", "amarelo"]
+
+// let numeros = [1, 2, 3, 5, 6]; // Inserir 4 no índice 3
+// console.log(numeros);
+// numeros.splice(3, 0, 4);
+// console.log(numeros); // Saída: [1, 2, 3, 4, 5, 6] 
+
+let animais = ["cachorro", "gato", "papagaio", "peixe"]; // Remover todos os elementos a parƟr do índice 2
+console.log(animais);
+animais.splice(2);
+console.log(animais); // Saída: ["cachorro", "gato"] 

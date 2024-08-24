@@ -1,0 +1,40 @@
+// let arrayVazio = [];
+// arrayVazio.push(1); // Adiciona o número 1 ao array
+// arrayVazio.push(3);
+// arrayVazio.push(7);
+// arrayVazio.push(8,5);
+// arrayVazio.push("4");
+// arrayVazio.push("pipoca");
+// console.log(arrayVazio);
+
+// let arrayComElementos = [1, 2, 3]; 
+// console.log(arrayComElementos);
+
+// let numeros = [10, 20, 30];
+// console.log(numeros[0]); // Saída: 10
+// console.log(numeros[1]); // Saída: 20 
+// console.log(numeros[2]); // Saída: 30 
+// console.log(numeros[3]); // Saída: Não traz resultado
+
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas.length); // Saída: 3 
+// frutas.push("abacate");
+// console.log(frutas.length); // Saída: 4
+// console.log(frutas);
+// console.log(frutas[1]);
+
+// let cores = ["vermelho", "azul"]; 
+// cores.unshift("amarelo");
+// cores.push("verde");
+// console.log(cores); // Saída: ["amarelo", "vermelho", "azul", "verde"]
+
+// let ultimo = cores.pop();
+// console.log(ultimo); // Saída: "verde"
+// console.log(cores); // Saída: ["amarelo", "vermelho", "azul"] 
+
+// let primeiro = cores.shift();
+// console.log(primeiro); // Saída: "verde"
+// console.log(cores); // Saída: ["amarelo", "vermelho", "azul"] 
+
+// let indice = cores.indexOf("amarelo");
+// console.log(indice); // Saída: 1 
